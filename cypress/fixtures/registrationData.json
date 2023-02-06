@@ -1,0 +1,112 @@
+[
+  {
+    "testCase": 0,
+    "jmeno": "",
+    "prijmeni": "",
+    "email": "testing@",
+    "emailconfirm": false,
+    "password": "abcdef",
+    "passwordconfirm": false,
+    "shouldFail": true
+  },
+  {
+    "testCase": 1,
+    "jmeno": "",
+    "prijmeni": "Prijmeni",
+    "email": "testinggmail.com",
+    "emailconfirm": true,
+    "password": "abcd",
+    "passwordconfirm": true,
+    "shouldFail": true
+  },
+  {
+    "testCase": 2,
+    "jmeno": "",
+    "prijmeni": "Prijmeni=",
+    "email": "testing@gmail.com",
+    "emailconfirm": false,
+    "password": "abcd",
+    "passwordconfirm": false,
+    "shouldFail": true
+  },
+  {
+    "testCase": 3,
+    "jmeno": "Jmeno",
+    "prijmeni": "",
+    "email": "testinggmail.com",
+    "emailconfirm": true,
+    "password": "abcdef",
+    "passwordconfirm": true,
+    "shouldFail": true
+  },
+  {
+    "testCase": 4,
+    "jmeno": "Jmeno",
+    "prijmeni": "Prijmeni",
+    "email": "testing@gmail.com",
+    "emailconfirm": false,
+    "password": "abcdef",
+    "passwordconfirm": false,
+    "shouldFail": true
+  },
+  {
+    "testCase": 5,
+    "jmeno": "Jmeno",
+    "prijmeni": "Prijmeni=",
+    "email": "testing@",
+    "emailconfirm": true,
+    "password": "abcd",
+    "passwordconfirm": true,
+    "shouldFail": true
+  },
+  {
+    "testCase": 6,
+    "jmeno": "Jmeno=",
+    "prijmeni": "",
+    "email": "testing@gmail.com",
+    "emailconfirm": true,
+    "password": "abcd",
+    "passwordconfirm": false,
+    "shouldFail": true
+  },
+  {
+    "testCase": 7,
+    "jmeno": "Jmeno=",
+    "prijmeni": "Prijmeni",
+    "email": "testing@",
+    "emailconfirm": false,
+    "password": "abcdef",
+    "passwordconfirm": true,
+    "shouldFail": true
+  },
+  {
+    "testCase": 8,
+    "jmeno": "Jmeno=",
+    "prijmeni": "Prijmeni=",
+    "email": "testinggmail.com",
+    "emailconfirm": false,
+    "password": "abcdef",
+    "passwordconfirm": false,
+    "shouldFail": true
+  },
+  {
+    "testCase": 9,
+    "jmeno": "",
+    "prijmeni": "Prijmeni",
+    "email": "testing@gmail.com",
+    "emailconfirm": true,
+    "password": "abcdef",
+    "passwordconfirm": true,
+    "shouldFail": true
+  },
+  {
+    "testCase": 10,
+    "jmeno": "Jmeno",
+    "prijmeni": "Prijmeni",
+    "email": "testing@gmail.com",
+    "emailconfirm": true,
+    "password": "abcdef",
+    "passwordconfirm": true,
+    "shouldFail": false
+  }
+]
